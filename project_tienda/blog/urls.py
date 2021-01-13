@@ -5,5 +5,6 @@ urlpatterns = [
      
     
     path('', views.blog,name="Blog"),
+    path('categoria/<categoria_id>/', views.categoria,name="categoria"),
  
 ]
