@@ -4,6 +4,14 @@
 
 {% block content%}
 
-<div><p style="color:black;">{{miFormulario}}</p></div>
+    <div class="contenedorFormulario">
+        <form action="" method="POST" style="text-align: center;">
+            {% csrf_token %}
+             <table style="color: rgb(146, 140, 140); margin: 20px auto;">{{miFormulario.as_table}}</table>
+             <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+
 
 {% endblock %}

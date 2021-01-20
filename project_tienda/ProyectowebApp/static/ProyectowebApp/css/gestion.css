@@ -287,3 +287,11 @@ ul.errorlist{
 
   text-decoration: none;
 }
+.contenedorFormulario{
+
+  background-color: rgb(15, 15, 15);
+  width: 40%;
+  margin:10px  auto;
+  border-radius: 5px;
+  padding: 1px 0px;
+}
